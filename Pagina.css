@@ -1,0 +1,206 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+		
+	/*background:url('image/papa.jpg');*/
+	background-size: cover;
+	
+	font-family: Arial, Sans-serif;
+}
+
+.fondo {
+	height: 100vh;
+	width: 100vw;
+/*	background: blue;*/
+	position: absolute;
+	float: left;
+	z-index: -1000;
+	display: inline-block;
+
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	filter: blur(3px);
+}
+
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+header {
+	background: #fff;
+}
+
+header nav {
+	width: 100%;
+}
+
+header nav ul {
+	width: 100%;
+	overflow: hidden;
+	list-style: none;
+
+}
+
+header nav ul li {
+	float: left;
+
+}
+
+
+header nav ul li a {
+	text-decoration:none;
+	display: inline-block;
+	padding: 15px 20px;
+	color: #000;
+
+
+}
+
+header nav ul li a:hover {
+	background: #000;
+	color: #fff;
+}
+
+.main {
+	width: 70%;
+	float: left;
+	/*background: #fff;*/
+
+}
+
+/*.main .imagen {
+	width: 100%;
+}
+
+.main .imagen img {
+	width: 100%;
+}*/
+
+.main .posts {
+	padding: 40px;
+}
+
+.main .posts article h2 {
+	margin-bottom: 20px;
+	color: #424242;
+}
+
+.main .posts article p {
+	margin-bottom: 15px;
+	line-height: 27px;
+}
+
+.wrapper {
+	width: 100%;
+
+}
+	
+.caja {
+	width: 40%;
+	height: 300px;
+	background-color: hsla(0, 0%, 100%, 0.7);
+	display: inline-block;
+	float: left;
+	margin: 2rem;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.caja:hover {
+	
+	box-shadow: 5px 10px 15px hsla(0, 0%, 9%, 0.3);
+}
+
+.caja .texto {
+	padding: 2rem;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+
+
+}
+
+.texto h2 {
+	text-align: center;
+}
+
+aside {
+	width: 30%;
+	background: #161f26;
+	padding: 20px;
+	color: #fff;
+	float: left;
+	/*color: #fff; */
+}
+
+aside .widget {
+	margin bottom: 20px;
+}
+
+aside .widget .titulo {
+	color: #ff7000;
+	border bottom: 1px solid #ff7000;
+	margin-bottom: 10px; 
+}
+
+aside .widget ul {
+	list-style: none;
+}
+
+aside .widget ul li {
+	border-bottom: 1px solid #fff;
+	padding: 10px 0;
+}
+ 
+
+aside .widget ul li a {
+	color:#fff;
+	text-decoration: none;
+
+}
+
+aside .widget ul li a:hover {
+	color:#8f8f8f;
+}
+
+aside .widget p {
+	 line-height: 27px ;
+}
+
+footer {
+	width: 70%;
+/*	overflow: hidden;*/
+	clear:both;
+	background: #000;
+	color: #fff;
+	padding: 15px 0;
+	text-align: center;
+}
+
+
+
+@media screen and (max-width: 800px) {
+	main {
+		width: 100%;
+	}
+
+	aside {
+		width: 100%
+	}
+
+	footer {
+		width: 100%
+	}
+} 
